@@ -117,6 +117,7 @@ h1, h2, h3, h4 {
 			white-space: nowrap;
 			text-overflow: ellipsis;
 			margin: auto 0;
+			margin-top: 2px;
 		}
 
 		/** Date divider */
@@ -210,10 +211,11 @@ h1, h2, h3, h4 {
 		
 		/*"more unreads" bottom*/
 		.p-channel_sidebar__banner--top {
-			background-color: var(--background);
+			background-color: #CD2553 !important;
 			border: 1px solid var(--border-bright);
 			border-top: none;
-			border-radius: 0 0 15px 15px;
+			padding: 4px 0;
+			border-radius: 0 0 7px 7px;
 		}
 		
 		/*"more unreads" bottom */
@@ -221,7 +223,8 @@ h1, h2, h3, h4 {
 			background-color: var(--background);
 			border: 1px solid var(--border-bright);
 			border-bottom: none;
-			border-radius: 15px 15px 0 0;
+			padding: 4px 0;
+			border-radius: 7px 7px 0 0;
 		}
 		
 		/*also add border to unread count for individual channels*/
