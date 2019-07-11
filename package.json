@@ -1,0 +1,26 @@
+{
+  "name": "slack-theme",
+  "version": "1.0.0",
+  "description": "Just a web server to test the changes locally",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeberdinelli/slack-theme.git"
+  },
+  "keywords": [],
+  "author": "Alan Berdinelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aeberdinelli/slack-theme/issues"
+  },
+  "homepage": "https://github.com/aeberdinelli/slack-theme#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "private": true
+}
