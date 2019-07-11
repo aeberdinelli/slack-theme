@@ -1,6 +1,9 @@
 # Why?
 Slack is awesome. However, it does not support a lot of customization, by default you can change only the sidebar colors. Using this, you will install a dark theme that looks really, really nice.
 
+## Screenshot
+![screenshot 1](https://raw.githubusercontent.com/aeberdinelli/slack-theme/master/screenshots/1.png)
+
 ## Install
 You need to patch slack, you can do it like this:
 
