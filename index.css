@@ -201,7 +201,7 @@ h1, h2, h3, h4 {
 			box-shadow: none;
 		}
 		
-		#client_body, #messages_container.has_top_messages_banner:before {
+		#client_body, #messages_container.has_top_messages_banner:before, #messages_container, #messages_container[role="main"], #col_messages, .p-message-pane, .c-scrollbar__hider, .c_message {
 			background: var(--background) !important;
 		}
 		
