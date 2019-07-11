@@ -201,7 +201,16 @@ h1, h2, h3, h4 {
 			box-shadow: none;
 		}
 		
-		#client_body, #messages_container.has_top_messages_banner:before, #messages_container, #messages_container[role="main"], #col_messages, .p-message-pane, .c-scrollbar__hider, .c_message {
+		#client_body, 
+		#messages_container.has_top_messages_banner:before, 
+		#messages_container, 
+		#messages_container[role="main"], 
+		#col_messages, 
+		.p-message-pane, 
+		.c-scrollbar__hider, 
+		.c-scrollbar__child,
+		.c-virtual_list__scroll_container,
+		.c_message {
 			background: var(--background) !important;
 		}
 		
@@ -265,7 +274,7 @@ h1, h2, h3, h4 {
 			box-shadow: none !important;
 		}
 		
-		ts-message:hover {
+		ts-message:hover, .c_message:hover, .c_message--hover {
 			background: var(--background-hover) !important;
 		}
 		
