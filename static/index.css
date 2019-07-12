@@ -36,6 +36,11 @@ h1, h2, h3, h4 {
 	z-index: 1;
 }
 
+::selection {
+	background: #0d0e10;
+	color: #b7b7b7;
+}
+
 
 /* Channel selector */
 /*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
@@ -208,6 +213,10 @@ h1, h2, h3, h4 {
 			background-color: transparent;
 			opacity: 1;
 		}
+
+		.p-message_pane__limited_history_foreword {
+			background: var(--background) !important;
+		}
 		
 		/*"more unreads" bottom*/
 		.p-channel_sidebar__banner--top {
@@ -336,7 +345,17 @@ h1, h2, h3, h4 {
 			color: #b7b7b7 !important;
 		}
 
-		.c-message--light .c-message__sender .c-message__sender_link {
+		.c-message--light .c-message__sender .c-message__sender_link, 
+		#team_tab #member_preview_scroller .member_details .member_name,
+		#member_preview_scroller .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link), 
+		#member_preview_web_container .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link), 
+		#team_list .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link), 
+		.menu_member_header .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link),
+		#member_preview_scroller .member_data_table tr, 
+		#member_preview_web_container .member_data_table tr, 
+		#team_list .member_data_table tr, 
+		.menu_member_header .member_data_table tr,
+		.menu_member_header .member_details .member_current_status, .menu_member_header .member_details .member_timezone_value {
 			color: #fff !important;
 			font-weight: normal;
 		}
@@ -351,6 +370,10 @@ h1, h2, h3, h4 {
 		.c-message_actions__button:active {
 			background: var(--background-elevated) !important;
 			color: #b7b7b7;
+		}
+
+		#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+			background: var(--background) !important;
 		}
 
 		.c-message_actions__button:hover {
@@ -386,7 +409,17 @@ h1, h2, h3, h4 {
 			background: var(--background-elevated) !important;
 		}
 		
-		
+		.search_form {
+			border: 1px solid #232529 !important;
+			color: #b7b7b7;
+			background: #232529 !important;
+		}
+
+		.search_form .ql-container .ql-editor p {
+			color: #b7b7b7 !important;
+			background: #232529 !important;
+		}
+
 		#flex_contents .heading,
 		#flex_contents .heading a,
 		#flex_contents .heading_text,
