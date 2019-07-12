@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
 You can run a local webserver so the script you updated works with local changes:
 
 1. Install NodeJS >= 10
-2. Clone this repository: `git clone git@github.com:aeberdinelli/slack-theme.git`
+2. Clone this repository: `git clone https://github.com/aeberdinelli/slack-theme.git`
 3. Install dependencies: `cd slack-theme && npm install`
 4. Run the webserver: `npm start`
 5. Finally, update your slack file so it request your local file instead of the one in the repository, open from your slack folder `resources/app.asar.unpacked/src/static/ssb-interop.js` and change:
