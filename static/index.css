@@ -216,8 +216,20 @@ h1, h2, h3, h4 {
 
 		.p-message_pane__limited_history_foreword {
 			background: var(--background) !important;
+			color: #fff;
 		}
 		
+		.p-degraded_list__loading, #connection_div.resync_banner {
+			background: var(--background);
+			border: none;
+			color: #fff;
+		}
+
+		.c-message_list__unread_divider__label {
+			background: #e01e5a;
+			color: #fff;
+		}
+
 		/*"more unreads" bottom*/
 		.p-channel_sidebar__banner--top {
 			background-color: #CD2553 !important;
@@ -408,11 +420,32 @@ h1, h2, h3, h4 {
 		.btn, .btn_outline {
 			background: var(--background-elevated) !important;
 		}
+
+		.c-menu {
+			background: var(--background) !important;
+		}
+		.c-menu_item__label.c-menu_item__label--with_description, .c-menu_item__label.c-menu_item__label, .c-menu_item__link_icon, .c-menu_item__shortcut {
+			color: #b7b7b7 !important;
+		}
+
+		.c-menu_item__button.c-menu_item__button--highlighted {
+			background: #232529 !important;
+		}
 		
 		.search_form {
 			border: 1px solid #232529 !important;
 			color: #b7b7b7;
 			background: #232529 !important;
+		}
+
+		.c-pillow_file_container, .c-pillow_file_container.c-pillow_file_container--focus-within, .c-pillow_file_container:hover {
+			background: var(--background) !important;
+			border: 1px solid #399dda;
+			box-shadow: none;
+		}
+		
+		.p-notification_bar__section {
+			color: #b7b7b7 !important;
 		}
 
 		.search_form .ql-container .ql-editor p {
