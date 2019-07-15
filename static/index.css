@@ -554,8 +554,8 @@ h1, h2, h3, h4 {
 			color: var(--text);
 		}
 		
-		#member_mentions h3 a {
-			color: var(--text-special);
+		#member_mentions h3 a, .creator_link, .channel_purpose_text {
+			color: var(--text-special) !important;
 		}
 		
 		pre.special_formatting{
@@ -1149,14 +1149,40 @@ h1, h2, h3, h4 {
 			border: none;
 		}
 
-		.channel_page_member_row .c-unified_member__display-name, #details_tab .channel_page_section .disclosure_triangle {
+		.channel_page_member_row .c-unified_member__display-name, #details_tab .channel_page_section .disclosure_triangle, .c-unified_member__display-name {
 			color: #b7b7b7 !important;
 		}
 
-		.flex_pane_showing #col_flex, #flex_contents .heading, #details_tab .channel_page_section {
+		.p-channel_insights__drawer_title {
+			color: #616061 !important;
+		}
+
+		.flex_pane_showing #col_flex, 
+		#flex_contents .heading, 
+		#details_tab .channel_page_section,
+		.p-channel_insights__message ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display) {
 			border-color: #444;
 		}
 
 		#channel_page_scroller .channel_page_section button {
 			color: #b7b7b7 !important;
+		}
+
+		.p-channel_insights__message {
+			margin-bottom: 10px;
+		}
+		.p-channel_insights__message--truncate::before {
+			background-image: linear-gradient(180deg, transparent, var(--background) 90%);
+		}
+
+		.p-channel_insights__date_heading span {
+			background: transparent;
+			color: #fff;
+			font-weight: normal;
+		}
+		.p-channel_insights__date_heading::before {
+			display: none;
+		}
+		.charcoal_grey {
+			color: #fff !important;
 		}
