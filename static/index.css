@@ -1120,3 +1120,18 @@ h1, h2, h3, h4 {
 		.p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before {
 			box-shadow: none !important;
 		}
+
+		/** editing message */
+		.c-message--highlight, .c-message--highlight_yellow_bg {
+			background: var(--background) !important;
+		}
+
+		.c-message__editor .ql-editor {
+			background: var(--background-elevated) !important;
+		}
+		.c-message__editor__input--legacy.focus {
+			border: 1px solid #b7b7b7;
+		}
+		.c-message__editor__emoji_circle_icon, .c-message__editor__emoji_happy_icon, .c-message__editor__emoji_smile_icon {
+			color: #b7b7b7;
+		}
