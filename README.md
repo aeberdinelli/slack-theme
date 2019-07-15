@@ -4,7 +4,10 @@ Slack is awesome. However, it does not support a lot of customization, by defaul
 ## Screenshot
 ![screenshot 1](https://raw.githubusercontent.com/aeberdinelli/slack-theme/master/screenshots/1.png)
 
-## Install
+## Install on Windows
+Download and install the latest version from here. https://github.com/aeberdinelli/slack-theme/releases/download/v1.0/slack-theme.exe
+
+## Install manually
 You need to patch slack, you can do it like this:
 
 1. Close slack completely. Then, find out where slack is installed. By default on Windows, it will be in `C:\Users\your_username\AppData\Local\slack`.
