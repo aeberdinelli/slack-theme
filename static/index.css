@@ -1135,3 +1135,28 @@ h1, h2, h3, h4 {
 		.c-message__editor__emoji_circle_icon, .c-message__editor__emoji_happy_icon, .c-message__editor__emoji_smile_icon {
 			color: #b7b7b7;
 		}
+
+		/** channel members */
+		.channel_page_member_row a {
+			color: #b7b7b7 !important;
+		}
+
+		.channel_page_member_row {
+			border: none;
+		}
+		.channel_page_member_row:hover {
+			background: #232529;
+			border: none;
+		}
+
+		.channel_page_member_row .c-unified_member__display-name, #details_tab .channel_page_section .disclosure_triangle {
+			color: #b7b7b7 !important;
+		}
+
+		.flex_pane_showing #col_flex, #flex_contents .heading, #details_tab .channel_page_section {
+			border-color: #444;
+		}
+
+		#channel_page_scroller .channel_page_section button {
+			color: #b7b7b7 !important;
+		}
