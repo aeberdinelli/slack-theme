@@ -1189,3 +1189,6 @@ h1, h2, h3, h4 {
 		.p-message_pane__top_banners {
 	                filter: grayscale(1);
 	        }
+		.p-file_upload_banner__text, .c-button-unstyled.p-file_upload_banner__cancel {
+			color: #000;
+		}
