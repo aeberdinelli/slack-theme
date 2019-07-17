@@ -453,6 +453,14 @@ h1, h2, h3, h4 {
 			color: #b7b7b7 !important;
 		}
 
+		.c-keyboard_key {
+			background: var(--background-hover);
+			border-color: #b7b7b7;
+			box-shadow: none;
+			color: #fff;
+			border-radius: 3px !important;
+		}
+
 		.c-message--light .c-message__sender .c-message__sender_link, 
 		#team_tab #member_preview_scroller .member_details .member_name,
 		#member_preview_scroller .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link), 
