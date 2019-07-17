@@ -1,13 +1,10 @@
-# Why?
-Slack is awesome. However, it does not support a lot of customization, by default you can change only the sidebar colors. Using this, you will install a dark theme that looks really, really nice.
-
-## Screenshot
+## Preview
 ![screenshot 1](https://raw.githubusercontent.com/aeberdinelli/slack-theme/master/screenshots/1.png)
 
-## Install on Windows
-Download and install the latest version from here. https://github.com/aeberdinelli/slack-theme/releases/download/v1.0/slack-theme.exe
+## Install
+[&darr; Download for windows](https://github.com/aeberdinelli/slack-theme/releases/download/v1.0/slack-theme.exe)
 
-## Install manually
+### Install manually (Mac / Linux)
 You need to patch slack, you can do it like this:
 
 1. Close slack completely. Then, find out where slack is installed. By default on Windows, it will be in `C:\Users\your_username\AppData\Local\slack`.
