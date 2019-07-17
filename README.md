@@ -1,10 +1,10 @@
-## Preview
+# Preview
 ![screenshot 1](https://raw.githubusercontent.com/aeberdinelli/slack-theme/master/screenshots/1.png)
 
-## Install
+# Install
 [&darr; Download for windows](https://github.com/aeberdinelli/slack-theme/releases/download/v1.0/slack-theme.exe)
 
-### Install manually (Mac / Linux)
+## Install manually (Mac / Linux)
 You need to patch slack, you can do it like this:
 
 1. Close slack completely. Then, find out where slack is installed. By default on Windows, it will be in `C:\Users\your_username\AppData\Local\slack`.
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 4. Is a good idea to backup the file once you updated it so you can easily re-apply the changes if slack changes it while updating the app.
 
-## Develop
+# Develop
 You can run a local webserver so the script you updated works with local changes:
 
 1. Install NodeJS >= 10
