@@ -449,8 +449,15 @@ h1, h2, h3, h4 {
 			background: var(--background-hover) !important;
 		}
 
-		#messages_container .c-message_list.c-scrollbar .c-message__content span {
+		#messages_container .c-message_list.c-scrollbar 
+		.c-message__content span, .c-menu_item__icon, 
+		.c-menu_item__header,
+		.menu_member_header .member_details .member_current_status a, .menu_member_header .member_details .member_timezone_value a {
 			color: #b7b7b7 !important;
+		}
+
+		.c-message_list__day_divider__line {
+			border-top: 1px solid var(--border-dim) !important;
 		}
 
 		.c-keyboard_key {
